@@ -1,0 +1,21 @@
+.navbarDisplay {
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(188, 177, 177);
+}
+
+.about {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(188, 177, 177);
+}
+
+.media {
+    text-decoration: none;
+    color: rgb(188, 177, 177);
+}
