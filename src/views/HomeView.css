@@ -37,3 +37,17 @@ header {
 .carouselContainer {
     margin: 70px;
 }
+
+.secondaryContainer {
+    background-color: black;
+}
+
+.secondaryTitle {
+    font-family: 'Microsoft Tai Le';
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+}
