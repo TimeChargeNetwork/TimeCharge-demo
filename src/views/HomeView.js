@@ -1,8 +1,10 @@
 import './HomeView.css';
+import { Link } from "react-router-dom";
 import logo from '../img/email.LOGO.png';
 import sample4 from '../img/sampleImage4.png';
 import sample6 from '../img/sampleImage6.png';
 import Carousel from 'react-bootstrap/Carousel';
+import sample from '../img/sampleImage.png'
 
 const HomeView = () => {
     return(
@@ -12,6 +14,18 @@ const HomeView = () => {
 
         <header className="header">
         <img src={logo} className="logo"/>
+            <div className='secondaryContainer'>
+                <h2 className='secondaryTitle'>
+                    What The EV Industry Needs
+                </h2>
+                <p className="and">
+                    and
+                </p>
+                {/* <img src={sample6} className="secondaryImg"/> */}
+                <Link className="aboutButton" to="/about">
+                    How is TimeCharge solving this?
+                </Link>
+            </div>
         </header>
 
         <div className='main'>
@@ -43,7 +57,7 @@ const HomeView = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src={sample4}
+                            src={sample}
                             alt="Second slide"
                         />
                         <Carousel.Caption>
@@ -66,23 +80,6 @@ const HomeView = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-            </div>
-            <div className='secondaryContainer'>
-                <h2 className='secondaryTitle'>
-                    What The EV Industry Needs
-                </h2>
-                <ul className='secondaryList'>
-                    <p>
-                        Reliable Service
-                    </p>
-                    <p>
-                        Wider Network
-                    </p>
-                    <p>
-                        Safety
-                    </p>
-                </ul>
-                <img src={sample6} className="secondaryImg"/>
             </div>
         </>
     )

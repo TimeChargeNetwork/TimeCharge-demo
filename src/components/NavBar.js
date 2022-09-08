@@ -5,7 +5,7 @@ import './NavBar.css';
 const NavBar = () => {
     return(
     <>
-        <Navbar bg="black" variant="dark">
+        <Navbar bg="black" variant="dark" sticky='top'>
         <Container style={{justifyContent: 'center', marginTop: '15px'}}>
           <Nav>
             <Link to="/" className='home'> Home </Link>
