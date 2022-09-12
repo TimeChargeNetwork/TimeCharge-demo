@@ -61,7 +61,7 @@ header {
     color: rgb(255, 255, 255);
     padding-bottom: 5px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 @media all and (max-width: 900px) {
