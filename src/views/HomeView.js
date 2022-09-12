@@ -12,7 +12,7 @@ const HomeView = () => {
         {/* HEADER */}
 
         <header className="header">
-        <img src={logo} className="logo"/>
+        <img src={logo} className="logo" alt='logo'/>
             <div className='secondaryContainer'>
                 <h2 className='secondaryTitle'>
                     What The EV Industry Needs
