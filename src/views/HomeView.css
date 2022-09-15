@@ -43,6 +43,8 @@ header {
 
 
 .and {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
     color: rgb(134, 129, 129);
 }
 
@@ -56,7 +58,7 @@ header {
 }
 
 .secondaryTitle {
-    font-family: 'Microsoft Tai Le';
+    font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     color: rgb(255, 255, 255);
     padding-bottom: 5px;
@@ -74,8 +76,8 @@ header {
 
 .aboutButton {
     text-decoration: none;
-    font-family: 'Microsoft Tai Le';
-    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
     font-size: 15px;
     color: rgb(0, 0, 0);
     padding: 12px;
@@ -106,13 +108,13 @@ header {
 
 @media all and (max-width: 900px) {
     .main {
-        margin-left: 0px;
+        margin-left: 20px;
     }
 }
 
 .mainTitle {
     margin-top: 50px;
-    font-family: 'Microsoft Tai Le';
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     color: black;
     font-size: 60px
@@ -125,7 +127,8 @@ header {
 }
 
 .mainStatement {
-    font-family: 'Microsoft Tai Le';
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
     font-size: 25px
 }
 

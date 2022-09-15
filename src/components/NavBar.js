@@ -7,10 +7,13 @@ const NavBar = () => {
     <>
         <Navbar bg="black" variant="dark" sticky='top'>
         <Container style={{justifyContent: 'center', marginTop: '15px'}}>
-          <Nav>
-            <Link to="/" className='home'> Home </Link>
-            <Link to="/about" className='about'> About </Link>
-            <Link to="/media" className='media'> Media </Link>
+          <Nav className='links'>
+            <Link to="/"> Home </Link>
+            <Link to="/about"> About </Link>
+            <Link to="/sites"> Sites </Link>
+            <Link to="/invest"> Invest </Link>
+            <Link to="/contact"> Contact </Link>
+            <Link to="/media"> Media </Link>
           </Nav>
         </Container>
       </Navbar>

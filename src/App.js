@@ -3,6 +3,7 @@ import HomeView from './views/HomeView';
 import NavBar from './components/NavBar';
 import AboutView from './views/AboutView';
 import MediaView from './views/MediaView';
+import SitesView from './views/SitesView';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/" element={<HomeView/>} />
       <Route path="/about" element={<AboutView/>} />
       <Route path="/media" element={<MediaView/>} />
+      <Route path='/sites' element={<SitesView/>} />
     </Routes>
     </BrowserRouter>
   );
