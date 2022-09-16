@@ -1,0 +1,67 @@
+
+.header2 {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.sitesTitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+@media all and (max-width: 700px) {
+    .aboutTitle {
+        font-size: 40px;
+    }
+}
+
+:root {
+    --clr-neutral-900: hsl(207, 19%, 9%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-accent-400: hsl(142 90% 61%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.siteCard {
+    color: var(--clr-neutral-100);
+    background-size:cover;
+    padding: 12rem 0 0;
+    max-width: 38ch;
+}
+
+.card-content {
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background: linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 20%,
+        hsl(0 0% 0% / 1)
+    );
+}
+
+.card-title {
+    position: relative;
+    width: max-content;
+}
+
+.card-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding) * -1);
+    bottom: 0;
+    width: calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+}
