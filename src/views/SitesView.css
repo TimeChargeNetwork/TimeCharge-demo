@@ -36,33 +36,52 @@
 .cardContainer {
     background-color: black;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media all and (max-width:600px) {
+    .cardContainer {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 
 .siteCard {
     color: var(--clr-neutral-100);
-    background-size:cover;
-    padding: 12rem 0 0;
-    max-width: 38ch;
+    background-size: cover;
+    height: 700px;
+    width: 70%;
+    margin: 20px;
+    border-radius: 10px;
 }
+
+@media all and (max-width:1000px) {
+    .siteCard {
+        height: 400px;
+        width: 90%;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .siteCard {
+        height: 600px;
+    }
+}
+
+
 
 .card-content {
     --padding: 1.5rem;
     padding: var(--padding);
-    background: linear-gradient(
-        hsl(0 0% 0% / 0),
-        hsl(20 0% 0% / 0.3) 20%,
-        hsl(0 0% 0% / 1)
-    );
 }
 
 .card-title {
     position: relative;
-    width: max-content;
+    width: 250px;
 }
 
 .card-title::after {
