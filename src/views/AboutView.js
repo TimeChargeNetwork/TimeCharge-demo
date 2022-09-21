@@ -4,9 +4,14 @@ import './AboutView.css';
 const AboutView = () => {
     return (
         <>
-        <h2>
-            This is about view
-        </h2>
+        <div className='batteryContainer'>
+            <div className='battery'>
+                <div className='top'></div>
+                <div className='charge1'></div>
+                <div className='charge2'></div>
+                <div className='charge3'></div>
+            </div>
+        </div>
         </>
     )
 }

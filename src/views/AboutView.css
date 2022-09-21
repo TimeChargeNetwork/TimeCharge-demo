@@ -1,0 +1,77 @@
+.batteryContainer {
+    background-color: #000000;
+    padding: 30px;
+    padding-top: 80px;
+}
+
+.battery {
+    width: 136.5px;
+    height: 255px;
+    border: 6px solid rgb(255, 255, 255);
+    /* position: absolute; */
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.top {
+    width: 50px;
+    height: 23px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 37.5px;
+    bottom: 25px;
+}
+
+.charge1,.charge2,.charge3 {
+    margin-top: 1.5px;
+    height: 74px;
+    width: 114px;
+    background-color: green;
+    position: relative;
+    opacity: 0;
+}
+
+.charge1 {
+    top: 140px;
+    left: 5.2px;
+    animation: charge-1 3s infinite;
+}
+
+@keyframes charge-1 {
+    25%,100% {
+        opacity: 1;
+    }
+}
+
+.charge2 {
+    bottom: 15px;
+    left: 5.2px;
+    animation: charge-2 3s infinite;
+}
+
+@keyframes charge-2 {
+    0%,25%{
+        opacity: 0;
+    }
+    50%,100%{
+        opacity: 1;
+    }
+}
+
+.charge3{
+    bottom: 170px;
+    left: 5.2px;
+    animation: charge-3 3s infinite;
+}
+
+@keyframes charge-3 {
+    0%,50%{
+        opacity: 0;
+    }
+    75%,100% {
+        opacity: 1;
+    }
+}
