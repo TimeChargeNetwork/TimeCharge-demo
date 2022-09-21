@@ -85,13 +85,13 @@ header {
     border-radius: 30px;
     margin-top: 15px;
     margin-bottom: 70px;
-    background-color: rgb(0, 255, 55);
+    background-color: rgb(5, 212, 5);
     transition-property: background, border-radius;
     transition-duration: .6s;
 }
 
 .aboutButton:hover{
-    background-color: rgb(0, 255, 55);
+    background-color: rgb(5, 212, 5);
     color: rgb(0, 0, 0);
     border-radius: 20px 0px 20px 0px;
     padding: 12px;
