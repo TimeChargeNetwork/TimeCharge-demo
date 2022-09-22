@@ -24,9 +24,8 @@
 
 .battery {
     width: 136.5px;
-    height: 255px;
+    height: 240px;
     border: 6px solid rgb(255, 255, 255);
-    /* position: absolute; */
     margin: auto;
     left: 0;
     right: 0;
@@ -45,7 +44,7 @@
 
 .charge1,.charge2,.charge3 {
     margin-top: 1.5px;
-    height: 74px;
+    height: 78px;
     width: 114px;
     background-color: rgb(1, 179, 1);
     position: relative;
@@ -54,8 +53,9 @@
 }
 
 .charge1 {
-    top: 140px;
+    top: 121px;
     animation: charge-1 3s infinite;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
 }
 
 @keyframes charge-1 {
@@ -65,8 +65,9 @@
 }
 
 .charge2 {
-    bottom: 15px;
+    bottom: 28px;
     animation: charge-2 3s infinite;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 }
 
 @keyframes charge-2 {
@@ -79,8 +80,10 @@
 }
 
 .charge3{
-    bottom: 170px;
+    bottom: 178px;
     animation: charge-3 3s infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
 }
 
 @keyframes charge-3 {
@@ -139,5 +142,7 @@
         margin-right: auto;
         width: 400px;
         border-radius: 5px;
+        width: 100%;
+        border-radius: 0px;
     }
 }
