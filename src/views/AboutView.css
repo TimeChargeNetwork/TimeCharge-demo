@@ -123,6 +123,12 @@
     border-bottom: 4px solid rgb(1, 179, 1);
 }
 
+@media all and (max-width: 700px) {
+    .whatIsTC-title-text {
+        font-size: 50px;
+    }
+}
+
 .whatIsTC-P {
     display: flex;
     justify-content: center;
@@ -173,6 +179,12 @@
     color: rgb(255, 255, 255);
     font-size: 60px;
     border-bottom: 4px solid rgb(1, 179, 1);
+}
+
+@media all and (max-width: 700px) {
+    .stage-text {
+        font-size: 50px;
+    }
 }
 
 .stage-P {
