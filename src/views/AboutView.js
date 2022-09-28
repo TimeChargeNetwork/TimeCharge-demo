@@ -31,15 +31,32 @@ const AboutView = () => {
                 </p>
                 <p>
                     South Florida will be our kickstart <Link to="/sites"> location </Link>. As our company 
-                    grows, locations will expand with it. Our MISSION is to scale accross the U.S. 
+                    grows, locations will expand with it. Our mission is to scale accross the U.S. 
                     Bringing better quality, reliability and services to the EV fast charging industry.
                 </p>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+        </div>
+        <div className='stage-container'>
+            <div className='stage-title'>
+                <h2 className='stage-text'>
+                    Our Stage?
+                </h2>
+            </div>
+            <div className='stage-P'>
+                <p>
+                    Our battery is charged to make the charging experience we all know, better.
+                </p>
+                <p>
+                    Our strategic million dollar investments are making those efforts become reality. 
+                    By creating a revolutionary makeover of charging expenses and bussiness plan.
+                    we are in the mid of our funding cycle. Our plans are to start opening stations by
+                    the second half of 2023.
+                </p>
+                <p>
+                    If you are interested to contribute to this exciting and revolutionizing startup.
+                    Check out our <Link to="/invest"> Invest </Link> page.
+                </p>
+            </div>
         </div>
         </>
     )

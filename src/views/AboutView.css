@@ -95,24 +95,32 @@
     }
 }
 
+
+.whatIsTC-container {
+    background-color: #000000;
+}
+
 .whatIsTC-title {
     display: flex;
     justify-content: flex-start;
-    padding: 50px
+    padding: 50px;
+    padding-left: 130px;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 700px) {
+    .whatIsTC-title {
+        justify-content: center;
+        padding-left: 50px;
+    }
 }
 
 .whatIsTC-title-text {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 60px;
     border-bottom: 4px solid rgb(1, 179, 1);
-}
-
-@media all and (max-width: 700px) {
-    .whatIsTC-title-text {
-        font-size: 40px;
-    }
 }
 
 .whatIsTC-P {
@@ -121,17 +129,17 @@
     padding: 20px;
     padding-left: 50px;
     padding-right: 220px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Reem Kufi Fun', sans-serif;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 30px;
     width: 700px;
     height: relative;
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px 0px 0px 5px;
-    color: rgb(255, 255, 255);
+    background-color: rgb(120, 255, 103);
+    border-radius: 40px 7px 40px 7px;
+    color: rgb(0, 0, 0);
     flex-wrap: wrap;
     margin: auto;
-    margin-right: 0;
+    margin-left: 120px;
 }
 
 
@@ -139,7 +147,57 @@
     .whatIsTC-P {
         font-size: 20px;
         padding: 20px;
-        margin-right: auto;
+        width: 400px;
+        border-radius: 5px;
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px;
+    }
+}
+
+.stage-container {
+    background-color: #000000;
+}
+
+.stage-title {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    padding-right: 130px;
+    margin-bottom: 20px;
+}
+
+.stage-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    border-bottom: 4px solid rgb(1, 179, 1);
+}
+
+.stage-P {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 220px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    width: 700px;
+    height: relative;
+    background-color: rgb(120, 255, 103);
+    border-radius: 7px 40px 7px 40px;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: auto;
+    margin-right: 120px;
+}
+
+@media all and (max-width: 700px) {
+    .stage-P {
+        font-size: 20px;
+        padding: 20px;
         width: 400px;
         border-radius: 5px;
         width: 100%;
