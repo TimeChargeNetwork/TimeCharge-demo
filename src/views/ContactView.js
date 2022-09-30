@@ -5,8 +5,8 @@ const ContactView = () => {
 
     let facebookUrl="https://www.facebook.com/TimeChargeIncNetwork";
     let twitterUrl="https://twitter.com/TimeChargeNet";
-    let googleUrl="https://www.facebook.com/TimeChargeIncNetwork";
-    let instagramUrl="https://www.facebook.com/TimeChargeIncNetwork";
+    let googleUrl="https://timechargenetwork.com/";
+    let instagramUrl="https://www.instagram.com/timechargenet/";
 
     return(
         <>
