@@ -12,6 +12,7 @@ function InvestView() {
     <div className="formConainer">
     <form className="form" action="https://getform.io/f/8790d4a9-53c9-4c35-9076-863ef0702a76" method="POST">
                 <h2 className='formTitle'>Investor Contact info</h2>
+                <p className='formParagraph'>We'll contact you within the upcoming days</p>
                 <input 
                 name="name"
                 placeholder="Full Name"

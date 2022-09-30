@@ -21,6 +21,13 @@
 .formTitle {
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.formParagraph {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 @keyframes morph {
@@ -53,8 +60,8 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    width: 65rem;
-    height: 45rem;
+    width: 70rem;
+    height: 50rem;
     border-radius:
      42% 56% 72% 28% / 42% 42% 56% 48%;
 

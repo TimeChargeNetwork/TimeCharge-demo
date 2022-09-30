@@ -1,6 +1,6 @@
 import './HomeView.css';
 import { Link } from "react-router-dom";
-import logo from '../img/email.LOGO.png';
+import logo from '../img/Better LOGO.jpeg';
 import sample4 from '../img/sampleImage4.png';
 import Carousel from 'react-bootstrap/Carousel';
 import sample from '../img/sampleImage.png'
