@@ -36,10 +36,10 @@ header {
     width: 800px;
 }
 
-@media all and (max-width:900px) {
+@media all and (max-width:550px) {
     .logo {
-        height: 180px;
-        width: 475px;
+        height: 137px;
+        width: 100%;
     }
 }
 
