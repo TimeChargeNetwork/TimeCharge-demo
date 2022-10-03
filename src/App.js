@@ -6,6 +6,7 @@ import MediaView from './views/MediaView';
 import SitesView from './views/SitesView';
 import InvestView from './views/InvestView';
 import ContactView from './views/ContactView';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/invest' element={<InvestView/>} />
       <Route path='/connect' element={<ContactView/>} />
     </Routes>
+    <Footer/>
     </BrowserRouter>
     </>
   );

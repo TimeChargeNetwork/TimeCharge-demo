@@ -81,6 +81,7 @@
 }
 
 .card-title {
+    font-size: 45px;
     position: relative;
     width: 250px;
     font-family: 'Ubuntu', sans-serif;
@@ -94,4 +95,19 @@
     bottom: 0;
     width: calc(100% + var(--padding));
     background: var(--clr-accent-400);
+}
+
+.sitesP {
+    font-size: 25px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 3px;
+    border-bottom: 2px solid rgb(1, 179, 1);
+}
+
+@media all and (max-width: 700px) {
+    .sitesP {
+        font-size: 15px;
+        margin: 25px;
+    }
 }

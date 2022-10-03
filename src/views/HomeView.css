@@ -18,6 +18,9 @@
     }
 } */
 
+/* #root {
+    background-color: black;
+} */
 
 header {
     background-color: black;
@@ -144,6 +147,10 @@ header {
     .mainStatement {
         font-size: 20px;
     }
+}
+
+.carouselContainer {
+    padding-bottom: 30px;
 }
 
 @media all and (max-width:900px) {
