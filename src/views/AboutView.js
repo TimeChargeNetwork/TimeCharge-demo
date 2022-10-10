@@ -1,6 +1,7 @@
 import './AboutView.css';
 import { Link } from 'react-router-dom';
-// import sampleImage from '../img/sampleImage.png';
+import charger from '../img/TC CHARGER.png';
+import chargerBack from '../img/TRIVIUM CHARGER BACK DESIGN 1.png';
 
 const AboutView = () => {
     return (
@@ -30,7 +31,7 @@ const AboutView = () => {
                     fast charging stations accross the U.S.
                 </p>
                 <p>
-                    South Florida will be our kickstart <Link to="/sites"> location </Link>. As our company 
+                    Miami, FL will be our kickstart <Link to="/sites"> location </Link>. As our company 
                     grows, locations will expand with it. Our mission is to scale accross the U.S. 
                     Bringing better quality, reliability and services to the EV fast charging industry.
                 </p>
@@ -57,6 +58,24 @@ const AboutView = () => {
                     Check out our <Link to="/invest"> Invest </Link> page.
                 </p>
             </div>
+        </div>
+        <div className='charger-title'>
+            <h2 className='charger-text'>Our Chargers</h2>
+        </div>
+        <div className='chargerContainer'>
+            <img src={charger} className="chargerFront" alt='chargerFront'/>
+            <img src={chargerBack} className="chargerBack" alt='chargerBack'/>
+        </div>
+        <div className='chargers-p'>
+            <p>TimeCharge chargers will be aquired from our great partner TRITIUM. Our level 3 
+            fast chargers will be capabe of producing 175kw per charger and up to 87kw for two cars
+            charging at the same time!
+            </p>
+            <br />
+            <p>
+                Using TRITIUM chargers not only makes TimeCharge provide charging time to be as fast as possible, but also
+                maintain an incredibly reliable service.
+            </p>
         </div>
         </>
     )
