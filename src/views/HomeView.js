@@ -2,7 +2,7 @@ import './HomeView.css';
 import { Link } from "react-router-dom";
 import logo from '../img/Better LOGO.jpeg';
 import Carousel from 'react-bootstrap/Carousel';
-import sketch from '../img/Station 3D Sketch.png';
+import sketch from '../img/Station Demo (2).png';
 import closeUp from '../img/Charger 3D Sketch Close Up.png';
 
 const HomeView = () => {
