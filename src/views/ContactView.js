@@ -1,4 +1,5 @@
 import './ContactView.css';
+import React from 'react';
 
 
 const ContactView = () => {

@@ -1,5 +1,6 @@
 import MiaSkyline from '../img/Miami-Skyline.jpg';
 import './SitesView.css';
+import React from 'react';
 
 const SitesView = () => {
     return(

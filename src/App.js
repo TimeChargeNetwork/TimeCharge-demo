@@ -7,6 +7,7 @@ import SitesView from './views/SitesView';
 import InvestView from './views/InvestView';
 import ContactView from './views/ContactView';
 import Footer from './components/Footer';
+import React from 'react';
 
 function App() {
   return (

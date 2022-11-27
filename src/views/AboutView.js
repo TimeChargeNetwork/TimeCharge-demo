@@ -2,6 +2,7 @@ import './AboutView.css';
 import { Link } from 'react-router-dom';
 import charger from '../img/TC CHARGER.png';
 import chargerBack from '../img/TRIVIUM CHARGER BACK DESIGN 1.png';
+import React from 'react';
 
 const AboutView = () => {
     return (

@@ -1,5 +1,6 @@
 import Form from 'react-bootstrap/Form';
 import './InvestView.css';
+import React from 'react';
 
 function InvestView() {
   return (
