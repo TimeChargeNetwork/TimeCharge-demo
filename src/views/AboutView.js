@@ -69,7 +69,7 @@ const AboutView = () => {
         </div>
         <div className='chargers-p'>
             <p>TimeCharge chargers will be aquired from our great partner TRITIUM. Our level 3 
-            fast chargers will be capabe of producing 175kw per charger and up to 87kw for two cars
+            fast chargers will be capabe of producing 150kw per charger and up to 75kw for two cars
             charging at the same time!
             </p>
             <br />
