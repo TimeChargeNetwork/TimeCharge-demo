@@ -49,13 +49,12 @@ const AboutView = () => {
                     Our battery is charged to make the charging experience we all know, better.
                 </p>
                 <p>
-                    Our strategic million dollar investments are making those efforts become reality. 
-                    By creating a revolutionary makeover of charging expenses and bussiness plan.
-                    we are in the mid of our funding cycle. Our plans are to start opening stations by
-                    the second half of 2023.
+                    Our strategic investments are making those efforts become reality. 
+                    By building perfected charing stations that makes the entire experience 
+                    reliable, safe and comfortable, and help our planet have the green future we strive for.
                 </p>
                 <p>
-                    If you are interested to contribute to this exciting and revolutionizing startup.
+                    If you are interested to be part of this exciting and revolutionizing startup.
                     Check out our <Link to="/invest"> Invest </Link> page.
                 </p>
             </div>

@@ -11,9 +11,10 @@ const NavBar = () => {
           <Nav className='links'>
             <Link to="/"> Home </Link>
             <Link to="/about"> About </Link>
-            <Link to="/invest"> Invest </Link>
+            {/* <Link to="/invest"> Invest </Link> */}
             <Link to="/sites"> Sites </Link>
             <Link to="/connect"> Connect </Link>
+            <Link to="/media"> Media </Link>
           </Nav>
         </Container>
       </Navbar>
