@@ -20,16 +20,36 @@ const ContactView = () => {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         ></link>
-        <a href={facebookUrl} target="_blank" className="fa fa-facebook">
+        <a
+          href={facebookUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fa fa-facebook"
+        >
           {" "}
         </a>
-        <a href={twitterUrl} target="_blank" className="fa fa-twitter">
+        <a
+          href={twitterUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fa fa-twitter"
+        >
           {" "}
         </a>
-        <a href={googleUrl} target="_blank" className="fa fa-google">
+        <a
+          href={googleUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fa fa-google"
+        >
           {" "}
         </a>
-        <a href={instagramUrl} target="_blank" className="fa fa-instagram">
+        <a
+          href={instagramUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fa fa-instagram"
+        >
           {" "}
         </a>
         {/* <a href="#" className="fa fa-linkedin"></a> */}
