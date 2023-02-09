@@ -4,8 +4,9 @@ import React from "react";
 const ContactView = () => {
   let facebookUrl = "https://www.facebook.com/TimeChargeIncNetwork";
   let twitterUrl = "https://twitter.com/TimeChargeNet";
-  let googleUrl = "https://timechargenetwork.com/";
   let instagramUrl = "https://www.instagram.com/timechargenet/";
+  let linkedInUrl = "https://www.linkedin.com/company/timechargenet/";
+  let youTubeUrl = "https://www.youtube.com/@timecharge/";
 
   return (
     <>
@@ -29,6 +30,14 @@ const ContactView = () => {
           {" "}
         </a>
         <a
+          href={instagramUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fa fa-instagram"
+        >
+          {" "}
+        </a>
+        <a
           href={twitterUrl}
           target="_blank"
           rel="noopener noreferrer"
@@ -37,23 +46,21 @@ const ContactView = () => {
           {" "}
         </a>
         <a
-          href={googleUrl}
+          href={youTubeUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="fa fa-google"
+          className="fa fa-youtube"
         >
           {" "}
         </a>
         <a
-          href={instagramUrl}
+          href={linkedInUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="fa fa-instagram"
+          className="fa fa-linkedin"
         >
           {" "}
         </a>
-        {/* <a href="#" className="fa fa-linkedin"></a> */}
-        {/* <a href="#" class="fa fa-youtube"></a> */}
       </div>
     </>
   );
