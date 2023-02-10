@@ -37,7 +37,7 @@ function MediaView() {
           options={{
             height: 15,
             amplitude: 22,
-            speed: 0.2,
+            speed: 0.15,
             points: 3,
           }}
         />

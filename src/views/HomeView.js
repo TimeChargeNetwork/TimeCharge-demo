@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../img/Better LOGO.jpeg";
 import sketch from "../img/Station Demo (3).png";
 import React from "react";
+import Wave from "react-wavify";
 
 const HomeView = () => {
   return (
@@ -14,11 +15,20 @@ const HomeView = () => {
         <div className="secondaryContainer">
           <h2 className="secondaryTitle">What The EV Industry Needs</h2>
           <p className="and">and</p>
-          {/* <img src={sample6} className="secondaryImg"/> */}
           <Link className="aboutButton" to="/about">
             How is TimeCharge solving this?
           </Link>
         </div>
+        <Wave
+          fill="white"
+          paused={false}
+          options={{
+            height: 15,
+            amplitude: 22,
+            speed: 0.15,
+            points: 3,
+          }}
+        />
       </header>
 
       <div className="main">
