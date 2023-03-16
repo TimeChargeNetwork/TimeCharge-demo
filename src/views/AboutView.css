@@ -46,7 +46,7 @@
     margin-top: 1.5px;
     height: 78px;
     width: 114px;
-    background-color: rgb(1, 179, 1);
+    background-color: rgb(6, 227, 6);
     position: relative;
     opacity: 0;
     left: 5.24px;
@@ -140,7 +140,7 @@
     font-size: 30px;
     width: 700px;
     height: relative;
-    background-color: rgb(120, 255, 103);
+    background-color: rgb(255, 255, 255);
     border-radius: 40px 7px 40px 7px;
     color: rgb(0, 0, 0);
     flex-wrap: wrap;
@@ -198,7 +198,7 @@
     font-size: 30px;
     width: 700px;
     height: relative;
-    background-color: rgb(120, 255, 103);
+    background-color: rgb(255, 255, 255);
     border-radius: 7px 40px 7px 40px;
     color: rgb(0, 0, 0);
     flex-wrap: wrap;
@@ -217,10 +217,75 @@
     }
 }
 
+.milestone-container {
+    background-color: #000000;
+    padding-bottom: 50px;
+}
+
+.milestone-title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    padding-left: 130px;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 700px) {
+    .milestone-title {
+        justify-content: center;
+        padding-left: 50px;
+    }
+}
+
+.milestone-title-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    border-bottom: 4px solid rgb(1, 179, 1);
+}
+
+@media all and (max-width: 700px) {
+    .milestone-title-text {
+        font-size: 50px;
+    }
+}
+
+.milestone-P {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 220px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    width: 700px;
+    height: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px 7px 40px 7px;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 120px;
+}
+
+
+@media all and (max-width: 700px) {
+    .milestone-P {
+        font-size: 20px;
+        padding: 20px;
+        width: 400px;
+        border-radius: 5px;
+        width: 100%;
+        border-radius: 0px;
+        margin: 0px;
+    }
+}
+
 .charger-title{
     display: flex;
     justify-content: center;
-    padding: 50px;
     margin-bottom: 20px;
 }
 
@@ -254,19 +319,32 @@
     }
 }
 
+.chargers-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
 .chargers-p {
     display: flex;
     justify-content: center;
-    padding: 40px;
-    font-family: 'Reem Kufi Fun', sans-serif;
-    font-weight: 200;
-    font-size: 30px;
-    height: relative;
-    background-color: rgb(0, 0, 0);
-    border-radius: 25px;
-    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    border-bottom: 4px solid rgb(1, 179, 1);
     flex-wrap: wrap;
-    margin: 50px;
+}
+
+@media all and (max-width: 700px) {
+    .chargers-container {
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 0px;
+        margin: 0px;
+        margin-top: 30px;
+    }
 }
 
 @media all and (max-width: 700px) {
