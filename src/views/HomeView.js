@@ -33,8 +33,10 @@ const HomeView = () => {
         </div>
         <div className="whatIsTC-P">
           <p>
-            TimeCharge is building electric vehicle (EV) fast charging stations
-            that provide a comfortable and safe experience for EV drivers.
+            TimeCharge provides electric vehicle (EV) fast charging solutions
+            and is the first in the industry to offer franchising opportunities
+            for DC fast charging stations. TimeCharge's main focus is to provide
+            EV drivers with reliable, safe, and stress-free charging experiences
           </p>
         </div>
       </div>
@@ -52,7 +54,7 @@ const HomeView = () => {
               your car charges
             </li>
             <br />
-            <li>A Reliable App</li>
+            <li>Reliable App</li>
             <br />
             <li>
               Robust charging architecture to ensure a smooth charging process
@@ -95,9 +97,6 @@ const HomeView = () => {
         <img src={charger} className="chargerFront" alt="chargerFront" />
         <img src={chargerBack} className="chargerBack" alt="chargerBack" />
       </div>
-      <div className="chargers-container">
-        <h2 className="chargers-p">Tritium PKM 150Kw</h2>
-      </div>
 
       {/* battery */}
       <div className="batteryContainer">
@@ -106,6 +105,10 @@ const HomeView = () => {
           <div className="charge1"></div>
           <div className="charge2"></div>
           <div className="charge3"></div>
+        </div>
+        <div className="sloganContainer">
+          <h1 className="sloganTitle">TimeCharge</h1>
+          <h3 className="sloganText">Charging the Future</h3>
         </div>
       </div>
     </>
