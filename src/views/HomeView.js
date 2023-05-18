@@ -41,51 +41,22 @@ const HomeView = () => {
         </div>
       </div>
 
-      {/* stations */}
-      <div className="stage-container">
-        <div className="stage-title">
-          <h2 className="stage-text">Our Stations</h2>
+      {/* Milestone */}
+      <div className="milestone-container">
+        <div className="milestone-title">
+          <h2 className="milestone-text">Milestone</h2>
         </div>
-        <div className="stage-P">
-          <p>TimeCharge charging stations feature:</p>
-          <ul style={{ listStyle: "square" }}>
-            <li>
-              Waiting lounges, where you can relax and get some work done while
-              your car charges
-            </li>
+        <div className="milestone-P">
+          <p>
+            We are committed to promoting sustainable transportation and are
+            excited to be a part of the growing EV community.
             <br />
-            <li>Reliable App</li>
             <br />
-            <li>
-              Robust charging architecture to ensure a smooth charging process
-            </li>
-            <br />
-            <li>In-house restrooms</li>
-          </ul>
+            TimeCharge bridges the gap between the EV owners' charging
+            expectations and the faced reality of frustration, inconvenience,
+            and even safety concerns.
+          </p>
         </div>
-
-        {/* milestone */}
-        <div className="milestone-container">
-          <div className="milestone-title">
-            <h2 className="milestone-title-text">Milestone</h2>
-          </div>
-          <div className="milestone-P">
-            <p>
-              We are committed to promoting sustainable transportation and are
-              excited to be a part of the growing EV community.
-            </p>
-          </div>
-        </div>
-        {/* <Wave
-          fill="white"
-          paused={false}
-          options={{
-            height: 30,
-            amplitude: 22,
-            speed: 0.15,
-            points: 3,
-          }}
-        /> */}
       </div>
 
       {/* CHARGERS */}

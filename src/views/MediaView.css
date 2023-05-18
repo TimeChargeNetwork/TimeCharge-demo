@@ -19,6 +19,7 @@
 }
 
 .carouselContainer {
+    padding-top: 70px;
     padding-bottom: 10px;
 }
 
@@ -28,19 +29,26 @@
     }
 }
 
-@media all and (min-width: 700px) {  
+@media all and (min-width: 650px) {  
     .carouselContainer {
         margin-top: 10px;
-        margin-left: 180px;
+        margin-left: 120px;
         margin-right: 180px;
         margin-bottom: 50px;
     }
 }
 
+@media all and (max-width:500px) {
+    .carouselContainer{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
 
 .youtubeContainer {
-    padding-top: 50px;
-    background-color: black;
+    padding-top: 100px;
 
 
     @media all and (max-width:900px) {
