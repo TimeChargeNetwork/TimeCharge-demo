@@ -1,3 +1,5 @@
+/* SOCIAL MEDIA CSS CODE ATTACHED UNDERNEATH */
+
 .headerMedia {
     display: flex;
     justify-content: center;
@@ -33,16 +35,15 @@
     .carouselContainer {
         margin-top: 10px;
         margin-left: 120px;
-        margin-right: 180px;
+        margin-right: 120px;
         margin-bottom: 50px;
     }
 }
 
 @media all and (max-width:500px) {
     .carouselContainer{
-        margin-top: 10px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
@@ -92,7 +93,129 @@
 
 @media all and (max-width:500px) {
     .video-responsive iframe{
-        height: 80%;
-        width: 80%;
+        height: 90%;
+        width: 95%;
     }
 }
+
+/* 
+
+.headerContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 0px;
+}
+
+.socialMediaContainer {
+  height: 600px;
+}
+
+.contactTitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    border-bottom: solid rgb(1, 179, 1);
+}
+
+.socialMedia-title {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-left: 0px;
+}
+
+@media all and (max-width: 700px) {
+    .socialMedia-title {
+        padding: 50px;
+    }
+}
+
+.socialMedia-text {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    border-bottom: 4px solid rgb(1, 179, 1);
+}
+
+@media all and (max-width: 700px) {
+    .socialMedia-text {
+        font-size: 40px;
+    }
+}
+
+.socialMediaContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    align-items: center;
+}
+
+@media all and (max-width: 700px) {
+    .socialMediaContainer {
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+}
+
+.fa {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 2px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 30px !important;
+  }
+  
+  .fa:hover {
+      color: white;
+      transition-duration: .4s;
+      padding: 30px;
+      font-size: 40px !important;
+  }
+
+  @media all and (max-width: 700px) {
+    .fa {
+        padding: 20px;
+        width: 100px;
+    }
+}
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+   */

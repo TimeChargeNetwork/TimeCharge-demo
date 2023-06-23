@@ -5,7 +5,7 @@ import AboutView from "./views/AboutView";
 import MediaView from "./views/MediaView";
 import SitesView from "./views/SitesView";
 import InvestView from "./views/InvestView";
-import ContactView from "./views/ContactView";
+import FranchisingView from "./views/FranchisingView";
 import Footer from "./components/Footer";
 import React from "react";
 
@@ -20,7 +20,7 @@ function App() {
           <Route path="/media" element={<MediaView />} />
           <Route path="/sites" element={<SitesView />} />
           <Route path="/invest" element={<InvestView />} />
-          <Route path="/connect" element={<ContactView />} />
+          <Route path="/franchising" element={<FranchisingView />} />
         </Routes>
         <Footer />
       </BrowserRouter>
