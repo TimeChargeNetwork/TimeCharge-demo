@@ -112,3 +112,105 @@
       width: 370px;
   }
 }
+
+.headerInvest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border: 0px;
+}
+
+.InvestTitle {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  border-bottom: solid rgb(1, 179, 1);
+}
+
+.formTitle {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+  border-bottom: 4px solid rgb(1, 179, 1);
+}
+
+.formParagraph {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+@keyframes morph {
+  0%, 100% {
+      border-radius:
+      42% 56% 72% 28% / 42% 42% 56% 48%;
+  }
+33% {
+  border-radius:
+  72% 28% 48% 48% / 28% 28% 72% 72%;
+}
+66% {
+  border-radius:
+  100% 56% 56% 100% / 100% 100% 56% 56%;
+}
+}
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px !important;
+  box-shadow: 0px 10px 10px lightgray;
+  padding: 60px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 43rem;
+}
+
+@media all and (max-width: 700px) {
+  .form {
+      animation: none;
+      width: 100%;
+      border-radius: 0px;
+      margin: 0px;
+      border: 0px;
+  }
+}
+
+.form input {
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border-style: solid;
+  width: 350px;
+  border-color: rgb(0, 0, 0);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+@media all and (max-width: 700px) {
+.form input {
+    width: 250px;
+}
+}
+
+.form button {
+  background-color: rgb(31, 242, 38);
+  border-color: transparent;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}

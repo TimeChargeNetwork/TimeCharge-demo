@@ -8,6 +8,7 @@ import sketchTop from "../img/IMG_2786.JPG";
 import sketchSide from "../img/IMG_2785.JPG";
 import sketchBackLeft from "../img/IMG_2784.JPG";
 import sketchBackRight from "../img/IMG_2783.JPG";
+import NYarticle from "../img/NYarticle.png";
 
 function MediaView() {
   const YoutubeEmbed = ({ embedId }) => (
@@ -25,11 +26,32 @@ function MediaView() {
     embedId: PropTypes.string.isRequired,
   };
 
+  let NYweeklykUrl =
+    "https://nyweekly.com/entrepreneur/christian-belloso-a-visionary-revolutionizing-ev-charging-with-timecharge/";
+
   return (
     <>
       <div className="headerMedia">
         <h2 className="MediaTitle">Media</h2>
       </div>
+
+      <div className="articleContainer">
+        <div>
+          <img src={NYarticle} className="NYarticleImg" alt="NYarticleImg" />
+        </div>
+        <div className="banner">
+          <a
+            href={NYweeklykUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="clickable"
+          >
+            + New York Weekly Article
+          </a>
+        </div>
+      </div>
+
+      <div className="breakLines">{""}</div>
 
       <div className="carouselContainer">
         <Carousel variant="dark">
@@ -78,6 +100,8 @@ function MediaView() {
           </Carousel.Item>
         </Carousel>
       </div>
+
+      <div className="breakLines">{""}</div>
 
       <div className="youtubeContainer">
         <YoutubeEmbed embedId="oKPYPuRQJdI" />

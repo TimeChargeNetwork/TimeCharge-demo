@@ -2,6 +2,7 @@ import "./FranchisingView.css";
 import Expansion from "../img/ExpansionUS.png";
 import Solutions from "../img/Solutions.png";
 import React from "react";
+import Form from "react-bootstrap/Form";
 
 const FranchisingView = () => {
   return (
@@ -52,6 +53,30 @@ const FranchisingView = () => {
             forefront of the EV fast charging revolution. Together, let's pave
             the way towards a cleaner, more sustainable tomorrow.
           </p>
+        </div>
+        <div className="formConainer">
+          <form
+            className="form"
+            action="https://getform.io/f/8790d4a9-53c9-4c35-9076-863ef0702a76"
+            method="POST"
+          >
+            <h2 className="formTitle">Contact Sales</h2>
+            <input name="name" placeholder="Full Name*" type="text" required />
+            <input name="email" placeholder="E-Mail*" type="text" required />
+            <input name="companyOptional" placeholder="Company" type="text" />
+            <input
+              name="number"
+              placeholder="Phone Number*"
+              type="tel"
+              required
+            />
+            <input type="text" placeholder="Message" name="message"></input>
+            <Form.Text className="text-muted">
+              * We'll never share your information
+            </Form.Text>
+            <br />
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </div>
     </>

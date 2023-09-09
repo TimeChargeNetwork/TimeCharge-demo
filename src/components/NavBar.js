@@ -13,7 +13,7 @@ const NavBar = () => {
             {/* <Link to="/about"> About </Link> */}
             {/* <Link to="/invest"> Invest </Link> */}
             <Link to="/franchising"> Franchising </Link>
-            <Link to="/sites"> Sites </Link>
+            {/* <Link to="/sites"> Sites </Link> */}
             <Link to="/media"> Media </Link>
           </Nav>
         </Container>
