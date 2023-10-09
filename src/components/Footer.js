@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   let facebookUrl = "https://www.facebook.com/TimeChargeIncNetwork";
-  let twitterUrl = "https://twitter.com/TimeChargeNet";
+  let XUrl = "https://twitter.com/TimeChargeNet";
   let instagramUrl = "https://www.instagram.com/timechargenet/";
   let linkedInUrl = "https://www.linkedin.com/company/timechargenet";
 
@@ -41,17 +41,17 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
-                  Twitter
-                </a>
-              </li>
-              <li>
                 <a
                   href={instagramUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Instagram
+                </a>
+              </li>
+              <li>
+                <a href={XUrl} target="_blank" rel="noopener noreferrer">
+                  X
                 </a>
               </li>
               <li>
