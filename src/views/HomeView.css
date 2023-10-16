@@ -40,8 +40,8 @@ header {
 
 @media all and (max-width:550px) {
     .logo {
-        height: 330px;
-        width: 370px;
+        height: 140px;
+        width: 350px;
     }
 }
 
@@ -64,8 +64,8 @@ header {
 
 @media all and (max-width: 700px) {
     .whatIsTC-title {
-        justify-content: center;
-        padding-left: 50px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
 }
 
@@ -80,6 +80,7 @@ header {
 @media all and (max-width: 700px) {
     .whatIsTC-title-text {
         font-size: 30px;
+        width: 200px;
     }
 }
 
@@ -127,7 +128,7 @@ header {
 
 @media all and (max-width: 700px) {
     .milestone-title {
-        padding-right: 125px;
+        padding-right: 25px;
     }
 }
 
@@ -141,7 +142,7 @@ header {
 
 @media all and (max-width: 700px) {
     .milestone-text {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 
