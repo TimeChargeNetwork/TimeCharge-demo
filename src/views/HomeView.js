@@ -1,10 +1,11 @@
 import "./HomeView.css";
 import logo from "../img/Better LOGO.jpeg";
-import sketch from "../img/IMG_2787.JPG";
+import MainRender from "../img/MainRender.jpg";
+import FriendlyRender from "../img/FriendlyRenderSide.jpg";
 import React from "react";
 import "./AboutView.css";
-import charger from "../img/TC CHARGER.png";
-import chargerBack from "../img/TRIVIUM CHARGER BACK DESIGN 1.png";
+// import charger from "../img/TC CHARGER.png";
+// import chargerBack from "../img/TRIVIUM CHARGER BACK DESIGN 1.png";
 // import Wave from "react-wavify";
 
 const HomeView = () => {
@@ -14,14 +15,7 @@ const HomeView = () => {
 
       <header className="header">
         <img src={logo} className="logo" alt="logo" />
-        <div className="secondaryContainer">
-          <img className="d-block w-100" src={sketch} alt="First slide" />
-          {/* <h2 className="secondaryTitle">What The EV Industry Needs</h2>
-          <p className="and">and</p>
-          <Link className="aboutButton" to="/about">
-            How is TimeCharge solving this?
-          </Link> */}
-        </div>
+        <img className="d-block w-100" src={FriendlyRender} alt="First slide" />
       </header>
 
       {/* ABOUT */}
@@ -57,17 +51,18 @@ const HomeView = () => {
             and even safety concerns.
           </p>
         </div>
+        <img className="d-block w-100" src={MainRender} alt="First slide" />
       </div>
 
       {/* CHARGERS */}
 
-      <div className="charger-title">
+      {/* <div className="charger-title">
         <h2 className="charger-text">Our Chargers</h2>
       </div>
       <div className="chargerContainer">
         <img src={charger} className="chargerFront" alt="chargerFront" />
         <img src={chargerBack} className="chargerBack" alt="chargerBack" />
-      </div>
+      </div> */}
 
       {/* battery */}
       <div className="batteryContainer">
@@ -78,7 +73,6 @@ const HomeView = () => {
           <div className="charge3"></div>
         </div>
         <div className="sloganContainer">
-          <h1 className="sloganTitle">TimeCharge</h1>
           <h3 className="sloganText">Charging the Future</h3>
         </div>
       </div>
