@@ -77,6 +77,34 @@ const FranchisingView = () => {
             <br />
             <button type="submit">Submit</button>
           </form>
+          <div className="disclaimer-div">
+            <p className="disclaimer-P">
+              Disclaimer*
+              <br />
+              <br />
+              This web site and the franchise sales information on this site do
+              not constitute an offer to sell a franchise or license. the offer
+              of a franchise can only be made through the delivery of a
+              franchise disclosure document. certain states require that we
+              register the franchise disclosure document in those states. the
+              communications on this web site are not directed by us to the
+              residents of any of those states. moreover, we will not offer or
+              sell franchises in those states until we have registered the
+              franchise (or obtained an applicable exemption from registration)
+              and delivered the franchise disclosure document to the prospective
+              franchisee in compliance with applicable law.
+              <br />
+              <br />
+              Currently, the following states regulate the offer and sale of
+              franchises: California, Hawaii, Illinois, Indiana, Maryland,
+              Michigan, Minnesota, New York, North Dakota, Oregon, Rhode Island,
+              South Dakota, Virginia, Washington, and Wisconsin. If you are a
+              resident of one of these states or countries, we will not offer
+              you a franchise unless and until we have complied with applicable
+              pre-sale registration and disclosure requirements in your
+              jurisdiction.
+            </p>
+          </div>
         </div>
       </div>
     </>

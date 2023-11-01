@@ -214,3 +214,26 @@
   margin-bottom: 10px;
   font-family: 'Ubuntu', sans-serif;
 }
+
+.disclaimer-div {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.disclaimer-P {
+font-size: 13px;
+  margin-top: 80px;
+  color: rgb(62, 62, 62);
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+@media all and (max-width: 700px) {
+  .disclaimer-P {
+    font-size: 9px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
