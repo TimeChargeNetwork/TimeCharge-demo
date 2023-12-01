@@ -15,7 +15,7 @@ const HomeView = () => {
 
       <header className="header">
         <img src={logo} className="logo" alt="logo" />
-        <img className="d-block w-100" src={FriendlyRender} alt="First slide" />
+        <img className="d-block w-100" src={MainRender} alt="First slide" />
       </header>
 
       {/* ABOUT */}
@@ -51,7 +51,7 @@ const HomeView = () => {
             and even safety concerns.
           </p>
         </div>
-        <img className="d-block w-100" src={MainRender} alt="First slide" />
+        <img className="d-block w-100" src={FriendlyRender} alt="First slide" />
       </div>
 
       {/* CHARGERS */}
