@@ -1,12 +1,9 @@
 import "./HomeView.css";
 import logo from "../img/Better LOGO.jpeg";
-import MainRender from "../img/MainRender.jpg";
-import FriendlyRender from "../img/FriendlyRenderSide.jpg";
+import MainVideo from "../img/MainLogoVid.mp4";
+import FriendlyRender from "../img/MainRender.jpg";
 import React from "react";
 import "./AboutView.css";
-// import charger from "../img/TC CHARGER.png";
-// import chargerBack from "../img/TRIVIUM CHARGER BACK DESIGN 1.png";
-// import Wave from "react-wavify";
 
 const HomeView = () => {
   return (
@@ -14,8 +11,8 @@ const HomeView = () => {
       {/* HEADER */}
 
       <header className="header">
+        <video src={MainVideo} autoPlay loop muted />
         <img src={logo} className="logo" alt="logo" />
-        <img className="d-block w-100" src={MainRender} alt="First slide" />
       </header>
 
       {/* ABOUT */}
@@ -53,16 +50,6 @@ const HomeView = () => {
         </div>
         <img className="d-block w-100" src={FriendlyRender} alt="First slide" />
       </div>
-
-      {/* CHARGERS */}
-
-      {/* <div className="charger-title">
-        <h2 className="charger-text">Our Chargers</h2>
-      </div>
-      <div className="chargerContainer">
-        <img src={charger} className="chargerFront" alt="chargerFront" />
-        <img src={chargerBack} className="chargerBack" alt="chargerBack" />
-      </div> */}
 
       {/* battery */}
       <div className="batteryContainer">
