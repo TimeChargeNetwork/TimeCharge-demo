@@ -2,6 +2,7 @@ import "./HomeView.css";
 import logo from "../img/Better LOGO.jpeg";
 import MainVideo from "../img/MainLogoVid.mp4";
 import FriendlyRender from "../img/MainRender.jpg";
+import MapImage from "../img/MapImage.png";
 import React from "react";
 import "./AboutView.css";
 
@@ -51,8 +52,13 @@ const HomeView = () => {
         <img className="d-block w-100" src={FriendlyRender} alt="First slide" />
       </div>
 
+      <div className="locationContainer">
+        <h2 className="locationTitle">First Site ~ 2024</h2>
+        <img className="mapImage" src={MapImage} alt="Map" />
+      </div>
+
       {/* battery */}
-      <div className="batteryContainer">
+      {/* <div className="batteryContainer">
         <div className="battery">
           <div className="top"></div>
           <div className="charge1"></div>
@@ -62,7 +68,7 @@ const HomeView = () => {
         <div className="sloganContainer">
           <h3 className="sloganText">Charging the Future</h3>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

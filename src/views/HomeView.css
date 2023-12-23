@@ -154,89 +154,44 @@ video {
     }
 }
 
-
-.charger-title{
+.locationContainer {
+    padding-top: 100px;
+    background-color: #000000;
     display: flex;
-    justify-content: center;
-    margin-bottom: 200px;
-    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 @media all and (max-width: 700px) {
-    .charger-title {
-        display: none;
+    .locationTitle  {
+        justify-content: center;
     }
 }
 
-.charger-text {
+.locationTitle {
+    margin-left: 200px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    color: rgb(0, 0, 0);
-    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
     border-bottom: 4px solid rgb(1, 179, 1);
 }
 
-.chargerContainer {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-bottom: 550px;
-}
-
-.chargerFront {
-    margin-top: 40px;
-    height: 900px;
-}
-
-.chargerBack {
-    margin-top: 40px;
-    height: 900px;
-}
-
 @media all and (max-width: 700px) {
-    .chargerFront, .chargerBack {
-        height: 400px;
-        margin-bottom: 20px;
+    .locationTitle  {
+        font-size: 30px;
+        width: 250px;
+        margin-left: 0px;
     }
 }
 
-.chargers-container {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-bottom: 20px;
+.mapImage {
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
 }
 
-.chargers-p {
-    display: flex;
-    justify-content: center;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    font-size: 60px;
-    border-bottom: 4px solid rgb(1, 179, 1);
-    flex-wrap: wrap;
-}
-
-@media all and (max-width: 700px) {
-    .chargers-container {
-        font-size: 20px;
-        padding: 20px;
-        border-radius: 0px;
-        margin: 0px;
-        margin-top: 30px;
-    }
-}
-
-@media all and (max-width: 700px) {
-    .chargers-p {
-        font-size: 20px;
-        padding: 20px;
-        border-radius: 0px;
-        margin: 0px;
-        margin-top: 30px;
-    }
-}
 
 .batteryContainer {
     background-color: #000000;
