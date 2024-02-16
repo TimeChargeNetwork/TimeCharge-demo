@@ -49,7 +49,13 @@ const HomeView = () => {
             and even safety concerns.
           </p>
         </div>
-        <img className="d-block w-100" src={FriendlyRender} alt="First slide" />
+        <div className="renderContainer">
+          <img
+            className="FriendlyRender"
+            src={FriendlyRender}
+            alt="First slide"
+          />
+        </div>
       </div>
 
       <div className="locationContainer">
